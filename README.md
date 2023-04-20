@@ -4,6 +4,8 @@ NYC Data Science April 24 Cohort
 
 This repository contains all lectures for the April 24th 2023 Data Science Cohort.
 
+### Getting access to your lectures
+
 In order to connect to this repo, you will:
 
 1. Fork this repository.
@@ -23,4 +25,8 @@ If not, type: git remote add origin main <forked_git_repo_address>
 
 ### Accessing the lectures
 
-With the exception of the first two days of lectures, all lectures are in Jupyter notebook format and are meant to be viewed via the Jupyter RISE extension. In order to install 
+With the exception of the first two days of lectures, all lectures are in Jupyter notebook format and are meant to be viewed via the Jupyter RISE extension. In order to install this:
+
+https://rise.readthedocs.io/en/stable/installation.html
+
+I would recommend the conda installation.
