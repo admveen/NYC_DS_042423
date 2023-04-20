@@ -23,10 +23,22 @@ If not, type: git remote add origin main <forked_git_repo_address>
  git remote add upstream https://github.com/admveen/ORIGINAL_REPOSITORY.git
 
 
-### Accessing the lectures
+### Accessing the lectures and optimizing your viewing experience
 
 With the exception of the first two days of lectures, all lectures are in Jupyter notebook format and are meant to be viewed via the Jupyter RISE extension. In order to install this:
 
 https://rise.readthedocs.io/en/stable/installation.html
 
 I would recommend the conda installation.
+
+Many of the lectures also split cells into columns for side by side viewing of text descriptions on one side and a code cell on the other. To view these, you'll need Jupyter notebook extensions:
+
+In bash conda install the following:
+
+conda install -c conda-forge jupyter_contrib_nbextensions
+conda install -c conda-forge jupyter_nbextensions_configurator
+
+- Then restart jupyter notebook and you will see a NBExtension tab. 
+- Enable Split Cells Notebook.
+
+If you get stuck: https://www.youtube.com/watch?v=Pls9sOQ2x_s
