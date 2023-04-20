@@ -4,7 +4,7 @@ NYC Data Science April 24 Cohort
 
 This repository contains all lectures for the April 24th 2023 Data Science Cohort.
 
-### Getting access to your lectures
+### Setting up your lecture repo
 
 In order to connect to this repo, you will:
 
@@ -22,6 +22,7 @@ If not, type: git remote add origin main <forked_git_repo_address>
 
  git remote add upstream https://github.com/admveen/ORIGINAL_REPOSITORY.git
 
+### Getting new lectures (updates from the upstream)
 
 ### Accessing the lectures and optimizing your viewing experience
 
