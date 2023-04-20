@@ -18,9 +18,11 @@ You should see something like this:
 
 If not, type: git remote add origin main <forked_git_repo_address>
 
-4. As it stands your local repository is only connected to 
+4. As it stands your local repository only points to one remote repository: your fork (origin).
 
- git remote add upstream https://github.com/admveen/ORIGINAL_REPOSITORY.git
+When lectures are added, you will need to be able to get changes from the original lecture repository (i.e. what is on admveen) and update your fork and local repository. We thus need to add another remote repository which will point to the location where the instructional team will add lectures. It is customary to denote the alias to this original repository as **upstream**.
+
+ git remote add upstream git@github.com:admveen/NYC_DS_042423.git
 
 ### Getting new lectures (updates from the upstream)
 
