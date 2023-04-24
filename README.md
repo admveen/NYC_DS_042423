@@ -16,6 +16,7 @@ When you type: git remote -v
 You should see something like this:
 
 origin  https://github.com/your_user_name/NYC_DS_042423.git (fetch)
+
 origin  https://github.com/your_user_name/NYC_DS_042423.git (push)
 
 If not, type: git remote add origin main <forked_git_repo_address>
@@ -30,8 +31,11 @@ If you have done this correctly, then you will see the following upon enter "git
 
 
 origin  https://github.com/your_user_name/NYC_DS_042423.git (fetch)
+
 origin  https://github.com/your_user_name/NYC_DS_042423.git (push)
-upstream  https://github.com/admveen/NYC_DS_042423.git (fetch)
+
+upstream  https://github.com/admveen/NYC_DS_042423.git (fetch
+)
 upstream  https://github.com/admveen/NYC_DS_042423.git (push)
 
 ### Getting new lectures (updates from the upstream)
