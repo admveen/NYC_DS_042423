@@ -40,17 +40,19 @@ upstream  https://github.com/admveen/NYC_DS_042423.git (push)
 
 ### Getting new lectures (updates from the upstream)
 
+When you are ready to get updates from the main lecture repo, type:
+
 git fetch upstream 
 
-This will fetch a commit history of all branches on the main lecture repository. You can inspect changes and compare them to your local and forked repository before deciding to merge commits on the main lecture repository your local main branch.
+This will fetch a commit history of all branches on the main lecture repository. You can inspect changes and compare them to your local and forked repository before deciding to merge commits on the main lecture repository with your local main branch.
 
 When you are ready to get the new updates, make sure that you are on your local repo's main branch. Then type:
 
 git merge upstream/main
 
-If keep your main branch on your repository as close as possible to the original lecture repository's main branch, then you should not get merge conflicts and will see updates in your local repo.
+If you keep your main branch on your repository as close as possible to the original lecture repository's main branch, then you should not get merge conflicts and will see updates in your local repo.
 
-**A word of advice:** If you are going to make a lot of changes to the lecture notebooks as you go, it might be a good idea to switch to a development branch and commit your changes there. This ensures that your local repo's main branch is as close as possible to the upstream's main branch and avoids messy merge conflicts when you fetch lectures.
+**A word of advice:** If you are going to make a lot of changes to the lecture notebooks as you go, it might be a good idea to switch to a different branch and commit your changes there in that branch. This ensures that your modifications are made only in the development branch and aids in keeping the local repo's main branch as close as possible to the upstream's main branch.
 
 Finally, make sure to do a "git pull" then "git push" on your local repo's main branch which will also update your forked remote repo (i.e. your origin).
 
