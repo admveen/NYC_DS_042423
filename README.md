@@ -34,8 +34,8 @@ origin  https://github.com/your_user_name/NYC_DS_042423.git (fetch)
 
 origin  https://github.com/your_user_name/NYC_DS_042423.git (push)
 
-upstream  https://github.com/admveen/NYC_DS_042423.git (fetch
-)
+upstream  https://github.com/admveen/NYC_DS_042423.git (fetch)
+
 upstream  https://github.com/admveen/NYC_DS_042423.git (push)
 
 ### Getting new lectures (updates from the upstream)
