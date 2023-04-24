@@ -46,7 +46,7 @@ git merge upstream/main
 
 If keep your main branch on your repository as close as possible to the original lecture repository's main branch, then you should not get merge conflicts and will see updates in your local repo.
 
-**A word of advice:** If you are going to make a lot of changes to the lecture notebooks as you go, it might be a good idea to switch to a development branch and commit your changes there. That way
+**A word of advice:** If you are going to make a lot of changes to the lecture notebooks as you go, it might be a good idea to switch to a development branch and commit your changes there. This ensures that your local repo's main branch is as close as possible to the upstream's main branch and avoids messy merge conflicts when you fetch lectures.
 
 Finally, make sure to do a "git pull" then "git push" on your local repo's main branch which will also update your forked remote repo (i.e. your origin).
 
