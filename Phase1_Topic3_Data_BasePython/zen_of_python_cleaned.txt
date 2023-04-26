@@ -1,4 +1,4 @@
-the zen of python by tim peters
+the 32 zen of python by tim peters
 
 beautiful is better than ugly
 explicit is better than implicit
